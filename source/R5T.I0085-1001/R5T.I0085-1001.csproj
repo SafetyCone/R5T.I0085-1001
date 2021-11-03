@@ -1,7 +1,11 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
+    <ProjectReference Include="..\..\..\R5T.D0085\source\R5T.D0085.Base\R5T.D0085.Base.csproj" />
+    <ProjectReference Include="..\..\..\R5T.D1001\source\R5T.D1001.A001\R5T.D1001.A001.csproj" />
     <ProjectReference Include="..\..\..\R5T.Magyar\source\R5T.Magyar\R5T.Magyar.csproj" />
+    <ProjectReference Include="..\..\..\R5T.T0067\source\R5T.T0067.X001\R5T.T0067.X001.csproj" />
+    <ProjectReference Include="..\..\..\R5T.T0072\source\R5T.T0072\R5T.T0072.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
