@@ -1,16 +1,16 @@
-﻿using System;
+using System;
 using System.Threading.Tasks;
 
 using Microsoft.Extensions.DependencyInjection;
 
 using R5T.D0085;
 using R5T.D1001;
-using R5T.D1001.A001;
+using R5T.D1001.A001;using R5T.T0064;
 
 
 namespace R5T.I0085_1001
-{
-    public abstract class ServicesConfigurerBase : IServicesConfigurer
+{[ServiceImplementationMarker]
+    public abstract class ServicesConfigurerBase : IServicesConfigurer,IServiceImplementation
     {
         protected IServiceX ServiceX { get; }
 
